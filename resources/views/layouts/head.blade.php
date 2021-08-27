@@ -15,10 +15,8 @@
 	<link rel="stylesheet" href="{{ asset('public/vendor/chartist/css/chartist.min.css')}}">
     <link href="{{ asset('public/vendor/bootstrap-select/dist/css/bootstrap-select.min.css')}}" rel="stylesheet">
 	<link href="{{ asset('public/vendor/owl-carousel/owl.carousel.css')}}" rel="stylesheet">
+    <link href="{{ asset('vendor/datatables/css/jquery.dataTables.min.css')}}" rel="stylesheet">
     <link href="{{ asset('public/css/style.css')}}" rel="stylesheet">
 	
 </head>
 
-<body>
-<h1>  TEst</h1>
-</body>
