@@ -40664,4 +40664,31 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
 
 
 
+.custom-file {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    margin-bottom: 0;
+  }
+  
+  .custom-file-input {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    margin: 0;
+    opacity: 0;
+
+  }
+
+.custom-file-label {
+    background: #fff;
+    border-color: #eee;
+}
+
+.custom-file-label {
+    height: 40px;
+    padding: 0.5rem 0.75rem;
+}
 /*# sourceMappingURL=style.css.map */
