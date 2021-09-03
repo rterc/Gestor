@@ -59,7 +59,7 @@
                 </div>
 
                 <div class="form-row">
-                    <div class="form-group col-md-4">
+                    <div class="form-group col-md-6">
                         <label for="correo">Correo Electrónico </label>
                         <input type="text" id="correo" class="form-control @error('correo') is-invalid @enderror"
                             name="correo" placeholder="Correo Electrónico">
@@ -70,60 +70,7 @@
                         </span>
                         @enderror
                     </div>
-
-                    <div class="form-group col-md-2">
-                        <label for="correo">Extensión </label>
-                        <input type="text" id="correo" class="form-control @error('correo') is-invalid @enderror"
-                            name="correo" placeholder="Extensión">
-
-                        @error('correo')
-                        <span class="invalid-feedback" role="alert">
-                            <strong>{{ $message }}</strong>
-                        </span>
-                        @enderror
-                    </div>
-
-
                 </div>
-
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="correo">Departamento</label>
-                        
-                        
-                        <select name="correo" id="" class="form-control default-select @error('correo') is-invalid @enderror">
-                            <option>Option 1</option>
-                            <option>Option 2</option>
-                            <option>Option 3</option>
-                        </select>
-                        @error('correo')
-                        <span class="invalid-feedback" role="alert">
-                            <strong>{{ $message }}</strong>
-                        </span>
-                        @enderror
-                        
-                        
-                        
-                    </div>
-                </div>
-
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="correo">Cargo</label>
-                        <input type="text" id="correo" class="form-control @error('correo') is-invalid @enderror"
-                            name="correo" placeholder="Cargo">
-
-                        @error('correo')
-                        <span class="invalid-feedback" role="alert">
-                            <strong>{{ $message }}</strong>
-                        </span>
-                        @enderror
-                    </div>
-                </div>
-
-
-
-
 
                 <div class="form-row">
                     <div class="form-group col-md-6">
